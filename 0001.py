@@ -15,6 +15,7 @@ class Solution1(object):
 # Solution 2: Hashing
 # Keep a hash table to store the number visited
 # Loop through the list and check if the residual of target minus current number exists in the list. Record the number if not.
+# Remember to output the right sequence.
 # Time complexity: O(N). Space complexity: O(N).
 
 class Solution2(object):
