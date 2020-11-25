@@ -10,7 +10,7 @@ class Solution(object):
         """
         grt_candies = max(candies)
         
-        return [(cndy + extraCandies) >= grt_candies for cndy in candies]
+        return [(cndy+extraCandies) >= grt_candies for cndy in candies]
 
 #Result Runtime: 20 ms / 91.69%; Memory Usage: 13.3 MB / 69.89%
 
