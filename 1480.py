@@ -16,6 +16,6 @@ class Solution(object):
         
         return running_sums
         
-#Result Runtime: 28 ms/52.56% Memory Usage: 13.4 MB
+#Result Runtime: 16 ms / 99.67%; Memory: 13.7 MB / 38.07% 
 
 #Instruction: Just do not calculate the sums all over again each time.
