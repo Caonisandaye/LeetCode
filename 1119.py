@@ -7,7 +7,7 @@ class Solution(object):
         :type S: str
         :rtype: str
         """
-        return ''.join([l for l in S if l not in 'aeiou'])
+        return ''.join([ltr for ltr in S if ltr not in 'aeiou'])
 
 #Result Runtime: 16 ms/73.65% Memory Usage: 13.6 MB
 
