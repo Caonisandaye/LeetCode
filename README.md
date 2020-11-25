@@ -1,2 +1,2 @@
 # LeetCode Challenge
-** I will upload the LeetCode solutions here
+I will upload the LeetCode solutions here
