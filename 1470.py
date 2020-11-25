@@ -12,7 +12,7 @@ class Solution(object):
         
         for i in range(n):
             sfld_nums.append(nums[i])
-            sfld_nums.append(nums[i + n])
+            sfld_nums.append(nums[i+n])
         
         return sfld_nums
         
