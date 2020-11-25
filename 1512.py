@@ -14,7 +14,7 @@ class Solution(object):
             else:
                 ct[n] = 1
         
-        return sum([ct[n] * (ct[n] - 1) / 2 for n in ct])
+        return sum([ct[n]*(ct[n]-1)/2 for n in ct])
         
 #Result Runtime: 16 ms / 92.18%; Memory Usage: 13.4 MB / 70.30%
 
