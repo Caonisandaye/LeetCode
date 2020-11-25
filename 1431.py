@@ -12,6 +12,6 @@ class Solution(object):
         
         return [(cndy + extraCandies) >= grt_candies for cndy in candies]
 
-#Result Runtime: 28 ms / 41.98%; Memory Usage: 13.3 MB / 69.89%
+#Result Runtime: 20 ms / 91.69%; Memory Usage: 13.3 MB / 69.89%
 
 #Instruction: Simple for loop.
