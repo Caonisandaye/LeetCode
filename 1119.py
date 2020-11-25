@@ -11,4 +11,4 @@ class Solution(object):
 
 #Result Runtime: 16 ms/73.65 Memory Usage: 13.6 MB
 
-#Instruction: Completely don't know the point to make such a boring new problem.
+#Instruction: Completely don't know the point to make such a boring "new" problem.
