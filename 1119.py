@@ -9,6 +9,6 @@ class Solution(object):
         """
         return ''.join([ltr for ltr in S if ltr not in 'aeiou'])
 
-#Result Runtime: 16 ms/73.65% Memory Usage: 13.6 MB
+#Result Runtime: 12 ms / 93.81%; Memory Usage: 13.5 MB / 40.48%
 
 #Instruction: Completely don't know the point to make such a boring "new" problem.
