@@ -17,4 +17,4 @@ class Solution(object):
                 
 #Result Runtime: 40 ms / 60.51%; Memory Usage: 13.6 MB / 37.55%
 
-#Instruction: Understand the right way to shuffle.
+#Instruction: Understand the right way to shuffle. Move the letter of the string to each index instead exact the letter of the string on each index.
