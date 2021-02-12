@@ -13,7 +13,7 @@ class Solution(object):
         if not root:
             return 0
         else:
-            UT0 = UT11 = UT12 = sys.maxint
+            UT11 = UT12 = sys.maxint
             
             UT0 = 1
             UT0 += (self.Umb(root.left.left) + self.Umb(root.left.right)) if root.left else 0
