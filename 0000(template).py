@@ -1,4 +1,4 @@
-##LC 0000. py file template
+##LC 0. py file template
 
 #Solution
 class Solution(object):
