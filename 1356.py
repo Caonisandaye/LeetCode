@@ -20,4 +20,4 @@ class Solution(object):
                 
 #Result Runtime: 64 ms / 49.46%; Memory Usage: 13.6 MB / 77.72%
 
-#Instruction: I don't like using bin(), but you can. Check the 'key' paramter for sort(). Keep practicing you will be familiar with bin-dec conversion
+#Instruction: I don't like using bin(), but you can. Check the 'key' paramter for sort(). Keep practicing you will be familiar with bin-dec conversion.
