@@ -19,6 +19,6 @@ class Solution(object):
         
         return ans
                 
-#Result Runtime: 16 ms / 99.40%; Memory Usage: 13.8 MB / 7.92%
+#Result Runtime: 24 ms / 94.48%; Memory Usage: 13.5 MB / 45.26%
 
 #Instruction: not easy to figure out best solution, dont make it too hard by caculating the number of repeats for each index, try to use start/end method.
