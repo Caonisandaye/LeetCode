@@ -24,4 +24,4 @@ class Solution(object):
                 
 #Result Runtime: 60 ms / 89.19%; Memory Usage: 13.6 MB / 76.58%
 
-#Instruction: since the arrays are sorted, we just need to compare the smallest of each array without looking back, note that 'a == b == c' result in unintended results
+#Instruction: since the arrays are sorted, we just need to compare the smallest of each array without looking back, note that 'a==b==c' is different with '(a==b)==c'.
