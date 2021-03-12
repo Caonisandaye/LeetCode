@@ -39,4 +39,5 @@ class Solution(object):
                 
 #Result Runtime: 136 ms / 100.00%; Memory Usage: 13.5 MB / 100.00%
 
-#Instruction: for each number limit of distinct characters, use a sliding window either shrink or expand each time 
+#Instruction: for each number limit of distinct characters, use a sliding window either shrink or expand each time to track the nicety of substring,
+#and this guarantees the linear runtime of each interation. And number of iterations is less equal to 26
