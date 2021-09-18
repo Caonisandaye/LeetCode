@@ -1,6 +1,6 @@
 ##LC 176. Second Highest Salary
 
-#Solution: Write your MySQL query statement below
+#Solution
 SELECT IFNULL(
 (SELECT DISTINCT Salary  FROM
 (SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) rk
