@@ -2,10 +2,11 @@
 
 #Solution
 SELECT IFNULL(
-(SELECT DISTINCT Salary  FROM
-(SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) rk
-FROM Employee) A
-WHERE rk = 2), NULL) SecondHighestSalary
+  (SELECT DISTINCT Salary FROM
+    (SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) rk
+    FROM Employee) A
+  WHERE rk = 2),
+NULL) SecondHighestSalary
                 
 #Result Runtime: 182 ms / 68.47%; Memory Usage: 0 MB / 100.00%
 
