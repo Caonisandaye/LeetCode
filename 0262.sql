@@ -10,4 +10,4 @@ GROUP BY 1
                 
 #Result Runtime: 423 ms / 78.01%; Memory Usage: 0 MB / 100.00%
 
-#Instruction: use the right JOIN to perform the right logic
+#Instruction: use the correct JOIN to perform the correct logic
