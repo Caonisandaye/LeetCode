@@ -33,4 +33,4 @@ ORDER BY 2
                 
 #Result Runtime: 1081 ms / 39.83%; Memory Usage: 0 MB / 100.00%
 
-#Instruction: XXXXXX
+#Instruction: can try to filter out non 2019 dates in JOIN conditions, but complex
