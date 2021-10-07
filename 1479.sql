@@ -15,6 +15,6 @@ GROUP BY 1
 ORDER BY 1
 
                 
-#Result Runtime: 440 ms / 62.93%; Memory Usage: 0 MB / 100.00%
+#Result Runtime: 418 ms / 74.77%; Memory Usage: 0 MB / 100.00%
 
 #Instruction: note that DAYOFWEEK() starts from Sunday
