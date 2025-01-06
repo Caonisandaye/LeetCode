@@ -2,11 +2,7 @@
 
 #Solution
 class Solution(object):
-    def sampleMethod(self, arg):
-        """
-        :type arg: int
-        :rtype: int
-        """
+    def sampleMethod(self, arg: None) -> None:
                 
 #Result Runtime: __ ms / __%; Memory Usage: __ MB / __%
 
