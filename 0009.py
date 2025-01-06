@@ -1,4 +1,4 @@
-##LC 0. py file template
+##LC 0. Palindrome Number
 
 #Solution
 class Solution:
