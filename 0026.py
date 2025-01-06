@@ -1,4 +1,4 @@
-##LC 0. py file template
+##LC 26. Remove Duplicates from Sorted Array
 
 #Solution
 class Solution:
