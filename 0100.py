@@ -12,7 +12,11 @@ class Solution:
         if not p or not q:
             return not p and not q
         else:
-            return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+            return (
+                p.val == q.val
+                and self.isSameTree(p.left, q.left)
+                and self.isSameTree(p.right, q.right)
+            )
                 
 #Result Runtime: 0 ms / 100.00%; Memory Usage: 17.70 MB / 91.28%
 
