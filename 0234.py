@@ -1,9 +1,30 @@
 ##LC 234. Palindrome Linked List
 
-#Solution
-class Solution(object):
-    def sampleMethod(self, arg: None) -> None:
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+#Solution1
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        fast, slow = head, head
+        while fast.next:
+            if fast.next.next:
+                fast = fast.next.next
+            else:
+                fast = fast.next
+            slow = slow.next
+        tail = None
+        while slow:
+            next_slow, slow.next, tail = slow.next, tail, slow
+            slow = next_slow
+        while tail:
+            if head.val != tail.val:
+                return False
+            head, tail = head.next, tail.next
+        return True
                 
-#Result Runtime: __ ms / __%; Memory Usage: __ MB / __%
+#Result Runtime: 38 ms / 43.59%; Memory Usage: 34.73 MB / 83.33%
 
-#Instruction: XXXXXX
+#Instruction: Very elegant O(N) runtime and O(1) space solution, use fast and slow node to find middle node, flip everythin after middle node and compare the tail to the head. Not surprised to see runtime is bad since it's a 2-3 (1 + 0.5 + 0.5) pass solution
